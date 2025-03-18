@@ -1,0 +1,22 @@
+public class vehicle {
+	public void fullThrottle()
+	{
+		System.out.println("Car is running fast");
+		
+	}
+	public void speed(int maxspeed)
+	{
+		System.out.println("Max Speed: "+maxspeed);
+	
+	}
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	vehicle mycar = new vehicle();
+	mycar.fullThrottle();
+		mycar.speed(190);
+		
+
+	}
+
+}
